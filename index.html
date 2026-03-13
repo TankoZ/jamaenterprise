@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded', function() {
     else if(!/^[6-9]\d{9}$/.test(phone)){setErr('phone','Enter a valid 10-digit Indian mobile number.');ok=false;}
     if(!email){setErr('email','Email address is required.');ok=false;}
     else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){setErr('email','Enter a valid email address.');ok=false;}
-    if(!service){setErr('service','Please select a service.');ok=false;}
+    if(!service){setErr('service','Please select a service:');ok=false;}
     if(!message){setErr('message','Please describe your requirements.');ok=false;}
     return ok;
   }
