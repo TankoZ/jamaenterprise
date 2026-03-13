@@ -12,7 +12,7 @@
  * Free plan: 50 submissions/month — enough for a B2B site
  */
 
-const FORMSPREE_ID = 'YOUR_FORMSPREE_ID'; // ← Replace this
+const FORMSPREE_ID = 'mbdzynqo'; // ← Replace this
 
 document.addEventListener('DOMContentLoaded', function () {
 
